@@ -11,6 +11,6 @@ public class IpPortToStringConverter implements Converter<IpPort, String> {
         log.info("convert source = {}", source);
 
         // IpPort 객체 -> 127.0.0.1:8080
-        return source.toString();
+        return source.getIp() + ":" + source.getPort();
     }
 }

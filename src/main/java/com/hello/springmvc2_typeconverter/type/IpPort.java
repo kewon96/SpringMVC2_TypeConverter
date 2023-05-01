@@ -18,8 +18,8 @@ public class IpPort {
     }
 
     /** ip:port형식의 문자열로 반환 */
-    public String toString() {
-        return this.ip + ":" + this.port;
-    }
+//    public String toString() {
+//        return this.ip + ":" + this.port;
+//    }
 
 }
